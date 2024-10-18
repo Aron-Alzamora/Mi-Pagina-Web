@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicio de Mototaxis</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">MotoTaxi Express</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#booking">Reserva</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="jumbotron text-center bg-primary text-white">
+        <div class="container">
+            <h1 class="display-4">Servicio de Mototaxis Rápido y Seguro</h1>
+            <p class="lead">¡Llegamos a tu destino de manera rápida, económica y segura!</p>
+            <a href="#booking" class="btn btn-warning btn-lg">Reserva Ahora</a>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="services" class="container my-5">
+        <h2 class="text-center">Nuestros Servicios</h2>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <i class="fas fa-motorcycle fa-3x mb-3"></i>
+                <h4>Transporte Urbano</h4>
+                <p>Te llevamos rápido a cualquier parte de la ciudad con nuestros conductores expertos.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-box fa-3x mb-3"></i>
+                <h4>Entregas a Domicilio</h4>
+                <p>Envíos rápidos y seguros de paquetes y documentos con nuestras mototaxis.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-clock fa-3x mb-3"></i>
+                <h4>Servicio 24/7</h4>
+                <p>Estamos disponibles en cualquier momento, todos los días del año.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Reserva -->
+    <section id="booking" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Reserva tu Mototaxi</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputName">Nombre</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputPhone">Teléfono</label>
+                        <input type="text" class="form-control" id="inputPhone" placeholder="Tu teléfono">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputLocation">Ubicación de recogida</label>
+                    <input type="text" class="form-control" id="inputLocation" placeholder="Introduce tu ubicación">
+                </div>
+                <div class="form-group">
+                    <label for="inputDestination">Destino</label>
+                    <input type="text" class="form-control" id="inputDestination" placeholder="Introduce tu destino">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Solicitar Mototaxi</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Testimonios Section -->
+    <section id="testimonials" class="container my-5">
+        <h2 class="text-center">Lo que dicen nuestros clientes</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <blockquote class="blockquote">
+                    <p class="mb-0">“Un servicio excelente, llegué a mi destino muy rápido y sin problemas.”</p>
+                    <footer class="blockquote-footer">Carlos Ramírez</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote class="blockquote">
+                    <p class="mb-0">“Los mototaxis son muy confiables y los conductores son muy amables.”</p>
+                    <footer class="blockquote-footer">Ana López</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote class="blockquote">
+                    <p class="mb-0">“El mejor servicio de mototaxi en la ciudad, muy recomendado.”</p>
+                    <footer class="blockquote-footer">Jorge Fernández</
